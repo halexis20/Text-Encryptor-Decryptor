@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryptor/Decryptor</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h1>Encryptor/Decryptor</h1>
+            <div class="form-group">
+                <label for="inputText" class="sr-only">Ingrese el texto:</label>
+                <input type="text" class="form-control" id="inputText" placeholder="Ingrese el texto">
+                <small class="note">Solo letras minúsculas y sin acentos.</small>
+            </div>
+            <button class="btn btn-primary" onclick="encryptText()">Encriptar</button>
+            <button class="btn btn-secondary" onclick="decryptText()">Desencriptar</button>
+        </div>
+        <div class="right-panel">
+            <div class="output-section">
+                <h3 id="outputHeader">Ningún mensaje fue encontrado</h3>
+                <p id="outputText">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="btn btn-info" onclick="copyText()" style="display: none;">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
