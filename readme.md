@@ -25,7 +25,7 @@ El texto encriptado puede ser desencriptado de vuelta a su forma original utiliz
 ## Instalación
 1. Clona este repositorio en tu máquina local:
     ```bash
-    git clone https://github.com/tu-usuario/text-encryptor.git
+    git clone https://github.com/halexis20/Text-Encryptor-Decryptor.git
     ```
 
 2. Navega al directorio del proyecto:
